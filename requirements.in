@@ -1,0 +1,6 @@
+bleak==0.19.5
+pandas
+jupyter
+scikit-learn
+seaborn
+asyncpg
