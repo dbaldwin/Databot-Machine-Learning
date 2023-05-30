@@ -232,17 +232,17 @@ pygments==2.14.0
     #   jupyter-console
     #   nbconvert
     #   qtconsole
-pyobjc-core==8.5.1
+pyobjc-core==8.5.1; sys_platform == 'darwin'
     # via
     #   bleak
     #   pyobjc-framework-cocoa
     #   pyobjc-framework-corebluetooth
     #   pyobjc-framework-libdispatch
-pyobjc-framework-cocoa==8.5.1
+pyobjc-framework-cocoa==8.5.1; sys_platform == 'darwin'
     # via pyobjc-framework-corebluetooth
-pyobjc-framework-corebluetooth==8.5.1
+pyobjc-framework-corebluetooth==8.5.1; sys_platform == 'darwin'
     # via bleak
-pyobjc-framework-libdispatch==8.5.1
+pyobjc-framework-libdispatch==8.5.1; sys_platform == 'darwin'
     # via bleak
 pyparsing==3.0.9
     # via matplotlib
@@ -353,3 +353,4 @@ websocket-client==1.5.1
     # via jupyter-server
 widgetsnbextension==4.0.5
     # via ipywidgets
+windows-curses==2.3.1; sys_platform == 'win32'
