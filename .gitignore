@@ -164,3 +164,9 @@ cython_debug/
 
 requirements.txt
 
+/vibration/data/moving_x_acceleration.json
+/vibration/data/stationary_x_acceleration.json
+/databot_address.txt
+/vibration/vibration_detector_model.sav
+/vibration/data/no_vibration.json
+/vibration/data/vibration.json
