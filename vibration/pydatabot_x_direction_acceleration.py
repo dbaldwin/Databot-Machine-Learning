@@ -27,6 +27,8 @@ class SaveToFileDatabotCollector(PyDatabot):
             f.write("\n")
             self.logger.info(f"wrote record[{self.record_number}]: {epoch}")
             self.record_number = self.record_number + 1
+            if self.record_number >= 100:
+                raise Exception("Done collecting data")
 
 
 def main():
@@ -37,7 +39,7 @@ def main():
     c.Laccl = True
     c.refresh = 100
     c.address = databot_address
-    db = SaveToFileDatabotCollector(c, file_name="moving_x_acceleration.json")
+    db = SaveToFileDatabotCollector(c, file_name="stationary_x_acceleration.json")
     db.run()
 
 
