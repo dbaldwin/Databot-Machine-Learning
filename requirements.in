@@ -3,5 +3,4 @@ pandas
 jupyter
 scikit-learn
 seaborn
-asyncpg
 databot-py
