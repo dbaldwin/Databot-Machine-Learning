@@ -178,3 +178,6 @@ requirements.txt
 /rotation/data/vertical.txt
 **/databot_address.txt
 /rotation/rotation_detector_model.sav
+/rotation/rotation_detector_model_no_gyro.sav
+/rotation/rotation_detector_model_no_horizontal.sav
+/rotation/data2/
